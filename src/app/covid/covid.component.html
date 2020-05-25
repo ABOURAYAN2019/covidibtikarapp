@@ -1,0 +1,33 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <a class="navbar-brand" href="#">Application covid Maroc</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+  </nav>
+
+
+  <div class="containner">
+    <div class="alert alert-primary text-right" role="alert">
+
+        عدد  الحالات 
+        <span class="badge badge-light ">{{donnee?.cases}}</span>
+      </div>
+      <div class="alert alert-secondary text-right" role="alert">
+عدد الوفيات الاجمالي      
+<span class="badge badge-light ">{{donnee?.deaths}}</span>
+</div>
+      <div class="alert alert-success text-right" role="alert">
+الحالات المتعافية   
+<span class="badge badge-light ">{{donnee?.recovered}}</span>
+
+</div>
+      <div class="alert alert-danger text-right" role="alert">
+عدد الفحوصات    
+<span class="badge badge-light ">{{donnee?.totalTests}}</span>
+
+</div>
+
+
+
+  </div>
